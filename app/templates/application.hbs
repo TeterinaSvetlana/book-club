@@ -1,23 +1,33 @@
-<div class="container">
-  <div class="menu">
-    {{#link-to "index"}}
+<div class="app">
+  <nav class="main-nav">
+    {{!-- {{#link-to "index"}} --}}
       <h1>
         <em>Книжный клуб</em>
       </h1>
-    {{/link-to}}
+    {{!-- {{/link-to}} --}}
     <div class="links">
-      {{#link-to "books" class="menu-about"}}
-        Книги
-      {{/link-to}}
-      {{#link-to "reports" class="menu-contact"}}
-        Доклады
-      {{/link-to}}
-      {{#link-to "meetings" class="menu-contact"}}
-        Встречи клуба
-      {{/link-to}}
+      <ul>
+        {{#link-to "books" class="menu-about"}}
+          Книги
+        {{/link-to}}
+      </ul>
+      <ul>
+        {{#link-to "reports" class="menu-contact"}}
+          Доклады
+        {{/link-to}}
+      </ul>
+      <ul>
+        {{#link-to "meetings" class="menu-contact"}}
+          Встречи клуба
+        {{/link-to}}
+      </ul>
     </div>
-  </div>
-  <div class="body">
+    {{!-- <ul>
+      <li><a href>Books</a></li>
+    </ul> --}}
+  </nav>
+  
+  <main class="app-content">
     {{outlet}}
-  </div>
+  </main>
 </div>

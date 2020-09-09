@@ -1,4 +1,27 @@
-{{#each model as |reports|}}
+<div class="panel-heading">
+  <div class="search">
+      <input type="text" placeholder="Поиск">
+  </div>
+  <a href>
+      <div class="sr-only">Оставить заявку на доклад</div>
+  </a>  
+</div>
+
+<div class="panel-content">
+<h3 class="panel-title">Доклады</h3>
+    <ul class="collection">
+        {{#each model as |reports|}}
+        <li>
+            <a href>
+               <li>Дата: {{reports.date}}</li> <li> <strong>Докладчик: </strong> {{reports.reporter}} </li>
+               {{!-- <strong>Книга: </strong> {{reports.author}}</li> <li>Кол-во страниц: {{reports.pages}}</li> <li>Где купить: {{reports.link}}</li> --}}
+            </a>
+        </li>
+        {{/each}}
+    </ul>
+</div>
+
+{{!-- {{#each model as |reports|}}
   <article class="listing">
     <h3>Доклады</h3>
     <div class="detail owner">
@@ -17,4 +40,4 @@
       <span>Описание:</span> {{reports.description}}
     </div>
   </article>
-{{/each}}
+{{/each}} --}}
