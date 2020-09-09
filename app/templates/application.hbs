@@ -1,5 +1,23 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class="container">
+  <div class="menu">
+    {{#link-to "index"}}
+      <h1>
+        <em>Книжный клуб</em>
+      </h1>
+    {{/link-to}}
+    <div class="links">
+      {{#link-to "books" class="menu-about"}}
+        Книги
+      {{/link-to}}
+      {{#link-to "reports" class="menu-contact"}}
+        Доклады
+      {{/link-to}}
+      {{#link-to "meetings" class="menu-contact"}}
+        Встречи клуба
+      {{/link-to}}
+    </div>
+  </div>
+  <div class="body">
+    {{outlet}}
+  </div>
+</div>

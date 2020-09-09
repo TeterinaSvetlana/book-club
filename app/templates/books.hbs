@@ -1,0 +1,29 @@
+<div class="jumbo">
+  <div class="right tomster"></div>
+  <h2>Welcome!</h2>
+  <p>
+    We hope you find exactly what you're looking for in a place to stay.
+  </p>
+  
+</div>
+
+{{#each model as |books|}}
+  <article class="listing">
+    <h3>Книги</h3>
+    <div class="detail owner">
+      <span>Название:</span> {{books.title}}
+    </div>
+    <div class="detail type">
+      <span>Автор:</span> {{books.author}}
+    </div>
+    <div class="detail location">
+      <span>Кол-во страниц:</span> {{books.pages}}
+    </div>
+    <div class="detail bedrooms">
+      <span>Обложка:</span> {{books.photo}}
+    </div>
+    <div class="detail bedrooms">
+      <span>Ссылка:</span> {{books.link}}
+    </div>
+  </article>
+{{/each}}

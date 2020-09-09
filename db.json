@@ -1,0 +1,45 @@
+{
+    "books": [
+      { "id": 1, "title": "book1", "author": "vasya", "pages": 100, "photo": "", "link": "https://www.ozon.ru/context/detail/id/4311012/" },
+      { "id": 2, "title": "book2", "author": "kolya", "pages": 302, "photo": "", "link": "https://www.ozon.ru/context/detail/id/141508653/?stat=Yl8x" },
+      { "id": 3, "title": "book3", "author": "oleg", "pages": 404, "photo": "", "link": "https://www.ozon.ru/context/detail/id/144499396/?stat=Yl8x" },
+      { "id": 4, "title": "book4", "author": "misha", "pages": 666, "photo": "", "link": "https://www.ozon.ru/context/detail/id/142429922/?stat=Yl8x" },
+      { "id": 5, "title": "book5", "author": "sveta", "pages": 1717, "photo": "", "link": "https://www.ozon.ru/context/detail/id/148627191/?stat=YW5fMQ%3D%3D" },
+      { "id": 6, "title": "book6", "author": "yana", "pages": 200, "photo": "", "link": "https://www.ozon.ru/context/detail/id/142431463/?stat=Yl8x" },
+      { "id": 7, "title": "book7", "author": "marina", "pages": 502, "photo": "", "link": "https://www.ozon.ru/context/detail/id/7821666/?stat=Yl8x" }
+    ],
+    "reports": [
+      { "id": 1, "date": "01.01.2020", "reporter": "Ivan", "bookId": 1, "grade": 5, "presentation": "", "link": "", "description": "good book" },
+      { "id": 2, "date": "01.01.2020", "reporter": "Sergey", "bookId": 2, "grade": 2, "presentation": "", "link": "", "description": "bad book" },
+      { "id": 3, "date": "01.01.2020", "reporter": "Maria", "bookId": 3, "grade": 5, "presentation": "", "link": "", "description": "very good book" },
+      { "id": 4, "date": "02.02.2020", "reporter": "Ivan", "bookId": 4, "grade": 5, "presentation": "", "link": "", "description": "nice book" },
+      { "id": 5, "date": "02.02.2020", "reporter": "Denis", "bookId": 5, "grade": 5, "presentation": "", "link": "", "description": "best book ever" },
+      { "id": 6, "date": "02.02.2020", "reporter": "Rinat", "bookId": 1, "grade": 3, "presentation": "", "link": "", "description": "so so book" },
+      { "id": 7, "date": "05.03.2020", "reporter": "Rita", "bookId": 6, "grade": 5, "presentation": "", "link": "", "description": "good book" },
+      { "id": 8, "date": "05.03.2020", "reporter": "Olya", "bookId": 2, "grade": 5, "presentation": "", "link": "", "description": "this book is liked by me" },
+      { "id": 9, "date": "05.03.2020", "reporter": "Slava", "bookId": 7, "grade": 5, "presentation": "", "link": "", "description": "i recommend this book" }
+    ],
+    "meetings":[
+      { "date": "01.01.2020",
+        "reports":[
+          {"reportId": 1},
+          {"reportId": 2},
+          {"reportId": 3}
+        ]
+      },
+      { "date": "02.02.2020",
+        "reports":[
+          {"reportId": 4},
+          {"reportId": 5},
+          {"reportId": 6}
+        ]
+      },
+      { "date": "05.03.2020",
+        "reports":[
+          {"reportId": 7},
+          {"reportId": 8},
+          {"reportId": 9}
+        ]
+      }
+    ] 
+  }

@@ -1,0 +1,11 @@
+{{#each model as |meetings|}}
+  <article class="listing">
+    <h3>Встречи клуба</h3>
+    <div class="detail owner">
+      <span>Дата:</span> {{meetings.date}}
+    </div>
+    <div class="detail type">
+      <span>Доклады:</span> {{meetings.reports}}
+    </div>
+  </article>
+{{/each}}

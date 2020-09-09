@@ -1,0 +1,20 @@
+{{#each model as |reports|}}
+  <article class="listing">
+    <h3>Доклады</h3>
+    <div class="detail owner">
+      <span>Дата:</span> {{reports.date}}
+    </div>
+    <div class="detail type">
+      <span>Оценка:</span> {{reports.grade}}
+    </div>
+    <div class="detail location">
+      <span>Презентация:</span> {{reports.presentation}}
+    </div>
+    <div class="detail bedrooms">
+      <span>Ссылка:</span> {{reports.link}}
+    </div>
+    <div class="detail bedrooms">
+      <span>Описание:</span> {{reports.description}}
+    </div>
+  </article>
+{{/each}}
