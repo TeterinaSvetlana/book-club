@@ -36,10 +36,10 @@
     </article>
     {{/each}} --}}
     <ul class="collection">
-        {{#each model as |books|}}
+        {{#each model as |book|}}
         <li>
             <a href>
-               {{books.photo}} <li> <strong>Название:</strong> {{books.title}} <strong>Автор:</strong> {{books.author}}</li> <li>Кол-во страниц: {{books.pages}}</li> <li>Где купить: {{books.link}}</li>
+               {{book.photo}} <li> <strong>Название:</strong> {{book.title}} <strong>Автор:</strong> {{book.author}}</li> <li>Кол-во страниц: {{book.pages}}</li> <li>Где купить: {{book.link}}</li>
             </a>
         </li>
         {{/each}}

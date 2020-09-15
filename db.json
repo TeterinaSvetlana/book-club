@@ -1,4 +1,5 @@
 {
+  "data": [{
     "books": [
       { "id": 1, "title": "book1", "author": "vasya", "pages": 100, "photo": "", "link": "https://www.ozon.ru/context/detail/id/4311012/" },
       { "id": 2, "title": "book2", "author": "kolya", "pages": 302, "photo": "", "link": "https://www.ozon.ru/context/detail/id/141508653/?stat=Yl8x" },
@@ -42,4 +43,4 @@
         ]
       }
     ] 
-  }
+  }]}
